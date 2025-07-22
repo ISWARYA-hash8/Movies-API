@@ -1,8 +1,11 @@
 import express from "express";
 import movieRoutes from "./routes/movies.js";
+import connectDB from "./lib/db.js";
 
 
 const app = express();
+//connect db 
+connectDB();
 app.get('/',(req,res)=>{
     res.json({msg : "Hello!!!"})
 });

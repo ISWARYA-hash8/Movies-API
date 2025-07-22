@@ -1,6 +1,6 @@
 //CRUD FUNCTIONALITY _ MOVIES
  import express from "express";
-import { MovieIndex,CreateMovie,UpdateMovie,DeleteMovie } from "../controllers/movies.controller";
+import { MovieIndex,CreateMovie,UpdateMovie,DeleteMovie } from "../controllers/movies.controller.js";
 const router = express.Router();
 
 router.get('/',MovieIndex);
