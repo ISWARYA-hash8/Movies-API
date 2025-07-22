@@ -11,8 +11,9 @@ app.get('/',(req,res)=>{
 });
 
 //CLIENT -> MIDDLEWARE --> SERVER
-
+//data understanding middlewares
 app.use(express.json());
+app.use(express.urlencoded({extended:true}));
 
 const PORT = 6969;
 app.use("/movies",movieRoutes);
