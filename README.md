@@ -10,7 +10,7 @@ A Node.js-based RESTful API for managing movie-related data. This project uses S
 
 
 ### 1. Clone the Repository
-git clone https://github.com/your-username/MOVIEAREASAPI.git
+git clone https://github.com/ISWARYA-hash8/MOVIEAREASAPI.git
 cd MOVIEAREASAPI
 ### 2. Run the following commands:
 npm install 
@@ -24,6 +24,7 @@ Requirements:
 `SonarScanner`
 
 follow the steps given in the pdf to download and excute sonar-scanner along with i have added all the steps required to integrate sonarqube.
+
 
 
 
