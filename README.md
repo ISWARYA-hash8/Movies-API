@@ -14,6 +14,7 @@ git clone https://github.com/your-username/MOVIEAREASAPI.git
 cd MOVIEAREASAPI
 ### 2. Run the following commands:
 npm install 
+
 nodemon server.js (during development)
 
 ### SonarQube / SonarCloud Integration
@@ -22,6 +23,7 @@ Requirements:
 
 `SonarScanner`
 
-follow the steps given in the pdf
+follow the steps given in the pdf to download and excute sonar-scanner along with i have added all the steps required to integrate sonarqube.
+
 
 
